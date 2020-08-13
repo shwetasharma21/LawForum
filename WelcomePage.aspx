@@ -8,8 +8,8 @@
 </head>
 <body>
     <form id="formWelcomePage" runat="server">
-        <div style="position:absolute;top:10px;right:10px;">
-            <asp:Label ID="LblLoginMsg" runat="server" Text="Enter Login details:" /><br />
+        <div style="position:absolute;top:10px;right:10px;float:right;">
+            <asp:Label ID="LblLoginMsg" runat="server" Text="Enter Login details:" style="padding:12px 20px" /><br />
             <asp:TextBox ID="TxtLoginMail" runat="server" placeholder="Enter mail" />
             <asp:TextBox ID="TxtLoginPass" runat="server" placeholder="Enter password" TextMode="Password" />
             <asp:Button ID="BtnLogin" runat="server" Text="Login" onclick="BtnLogin_Click" /> &nbsp; <br />

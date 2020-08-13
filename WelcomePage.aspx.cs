@@ -90,10 +90,6 @@ public partial class _Default : System.Web.UI.Page
         LblRegisterStatus.Visible = true;
         int flag=0;
 
-        //
-        return;
-        //
-
         try
         {
             con = SqlHelper.getInstance();
@@ -119,8 +115,6 @@ public partial class _Default : System.Web.UI.Page
 
     private void login(String mail,String pass)
     {
-
-        //con = new SqlConnection("Data Source=AVINASHSHARMA\\SQLEXPRESS;Initial Catalog=LawForum;Integrated Security=True");
         try
         {
             con = SqlHelper.getInstance();

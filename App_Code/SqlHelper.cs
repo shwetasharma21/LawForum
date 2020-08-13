@@ -27,6 +27,6 @@ public class SqlHelper
         }
         //return con;
         //return new SqlConnection("Data Source=AVINASHSHARMA\\SQLEXPRESS;Initial Catalog=LawForum;Integrated Security=True");
-        return new SqlConnection("Data Source=DARKWOLF\\SQLExpress;Initial Catalog=LawForum;Integrated Security=True");
+        return new SqlConnection("Data Source=DARKWOLF\\SQLEXPRESS;Initial Catalog=LawForum;Integrated Security=True");
     }
 }
